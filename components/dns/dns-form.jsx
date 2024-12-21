@@ -84,7 +84,7 @@ export function DNSForm({ onSearch }) {
             <FormItem className="flex-1">
               <FormLabel>Domain</FormLabel>
               <FormControl>
-                <Input placeholder="dns.surf" autoFocus {...field} onBlur={changeName} />
+                <Input placeholder="dns.is" autoFocus {...field} onBlur={changeName} />
               </FormControl>
               <FormMessage />
             </FormItem>
