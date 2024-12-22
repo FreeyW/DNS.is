@@ -43,7 +43,7 @@ export default function Footer() {
             ref={email}
           >
             <span className="sr-only">Email</span>
-            <span className="icon-[mdi--email] h-6 w-6"></span>
+            <span className="icon-[mdi--email h-6 w-6"></span>
           </a>
           <a
             href="https://ip.im"
@@ -52,7 +52,7 @@ export default function Footer() {
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">IP.IM</span>
-            <span h-6 w-6"></span>
+            <span className="h-6 w-6"></span>
           </a>
           <a
             href="https://t.im"
@@ -61,7 +61,7 @@ export default function Footer() {
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">T.im</span>
-            <span  h-6 w-6"></span>
+            <span className="h-6 w-6"></span>
           </a>
 
           <a
@@ -71,7 +71,7 @@ export default function Footer() {
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">PDF.is</span>
-            <span h-6 w-6"></span>
+            <span className="h-6 w-6"></span>
           </a>
 
           <a
@@ -81,7 +81,7 @@ export default function Footer() {
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">MR.email</span>
-            <span h-6 w-6"></span>
+            <span className="h-6 w-6"></span>
           </a>
 
           <a
