@@ -70,10 +70,10 @@ export default function Footer() {
                 </a>
                 <a
                   className="w-full px-6 py-2 mr-0 text-gray-700 cursor-pointer md:px-3 md:mr-2 lg:mr-3 md:w-auto"
-                  href="/terms"
-                  title="Terms"
+                  href="https://t.im"
+                  title="T.im URL shortener"
                 >
-                  Terms
+                  T.im
                 </a>
                 <span
                   className="w-full px-6 py-2 mr-0 text-gray-700 cursor-pointer md:px-3 md:mr-2 lg:mr-3 md:w-auto"
