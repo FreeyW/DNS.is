@@ -96,6 +96,7 @@ export default function Footer() {
           </a>
         </span>
       </div>
+      <script defer data-domain="dns.is" src="https://stat.re/js/script.js"></script>
     </section>
   )
 }
