@@ -24,16 +24,14 @@ export default function Footer() {
         </a>
         <a
           className="mt-4 text-sm text-gray-500 sm:ml-4 sm:mt-0 sm:border-l sm:border-gray-200 sm:pl-4"
-          href="https://html.zone"
-          target="_blank"
-          rel="noopener"
-          title="HTML.ZONE"
+          href="https://DNS.is"
+          title="DNS.is"
         >
           &copy;
           {' '}
           {new Date().getFullYear()}
           {' '}
-          Products of HTML.ZONE
+          Products of DNS.is
         </a>
         <span className="mt-4 inline-flex justify-center space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
           <a
