@@ -32,6 +32,15 @@ app.use('*', async (c, next) => {
   return corsMiddlewareHandler(c, next)
 })
 
+// 在这里添加根路径处理器
+app.get('/', (c) => {
+  return c.json({
+    message: 'DNS.is Worker API',
+    status: 'ok',
+    documentation: 'https://dns.is'
+  })
+})
+
 app.get('/api/region/*', async (c) => {
   const accept = c.req.header('accept') || ''
   const { search } = new URL(c.req.raw.url)
