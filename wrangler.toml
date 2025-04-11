@@ -4,7 +4,7 @@ compatibility_date = "2024-09-25"
 workers_dev = false
 
 [limits]
-cpu_ms = 10
+# cpu_ms = 10
 
 # prod
 # nr deploy --var "CORS_ORIGIN:dns.surf" "WORKER_HOST:dns.html.zone"
