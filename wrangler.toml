@@ -3,7 +3,7 @@ main = "lib/dns-query.ts"
 compatibility_date = "2024-09-25"
 workers_dev = false
 
-[limits]
+# [limits]
 # cpu_ms = 10
 
 # prod
